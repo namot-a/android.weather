@@ -22,15 +22,15 @@
         android:id="@+id/user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:layout_below="@+id/logo"
-        android:backgroundTint="@color/cardview_light_background"
-        android:inputType="textPersonName"
         android:layout_marginHorizontal="50sp"
         android:layout_marginTop="100sp"
+        android:backgroundTint="@color/colorbtn"
+        android:ems="10"
+        android:hint="@string/hint_user"
+        android:inputType="textPersonName"
         android:textColor="@color/Textcolor"
-        android:textColorHint="@color/TextcolorHint"
-        android:hint="@string/hint_user" />
+        android:textColorHint="@color/TextcolorHint" />
 
     <Button
         android:id="@+id/main_btn"
@@ -50,8 +50,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/main_btn"
-        android:fontFamily="sans-serif-thin"
         android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif-thin"
         android:textAlignment="center"
         android:textColor="@color/TextcolorHint"
         android:textSize="25sp" />
